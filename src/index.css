@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-raq-green: #173F35;
+  --color-raq-lime: #D9EF83;
+  --color-raq-ivory: #F7F4ED;
+  --color-raq-gray: #747B71;
+  --font-tajawal: 'Tajawal', sans-serif;
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  background-color: #F7F4ED;
+  color: #173F35;
+  direction: rtl;
+}
+
+/* Custom scrollbar and animations */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F4ED;
+}
+::-webkit-scrollbar-thumb {
+  background: #747B71;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #173F35;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "رَقّ - Raq",
+  "description": "منصة رَقّ لإنشاء وتخصيص ونشر الصفحات برابط دائم ورمز QR. صفحتك، برابط ولمسة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
