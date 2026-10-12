@@ -29,15 +29,16 @@ import { PageDocument, TemplateType, UserProfile, PageContent } from '../types';
 
 // Firebase configuration from environment or fallback placeholders
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "demo-api-key",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "demo-project.firebaseapp.com",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "demo-project",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "demo-project.appspot.com",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "123456789",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:123:web:abc"
+  apiKey: "AIzaSyC6KuAd1oFi9uFDiOnR8YGh6EBeWFIDqcY",
+  authDomain: "riq-c32a3.firebaseapp.com",
+  projectId: "riq-c32a3",
+  storageBucket: "riq-c32a3.firebasestorage.app",
+  messagingSenderId: "187156605748",
+  appId: "1:187156605748:web:0be1003c3a82f21c63d361",
+  measurementId: "G-29MBWCT1JJ"
 };
 
-const isDemoMode = !import.meta.env.VITE_FIREBASE_API_KEY || import.meta.env.VITE_FIREBASE_API_KEY === "MY_FIREBASE_API_KEY" || import.meta.env.VITE_FIREBASE_API_KEY === "demo-api-key";
+const isDemoMode = false;
 
 // Initialize Firebase
 let app: any = null;

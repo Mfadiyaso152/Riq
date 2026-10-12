@@ -53,9 +53,9 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#F7F4ED]/70 gap-4">
-          <p>© {new Date().getFullYear()} منصة رَقّ (Raq). جميع الحقوق محفوظة.</p>
+          <p>© {new Date().getFullYear()} منصة رِقّ (Raq). جميع الحقوق محفوظة.</p>
           <div className="flex items-center gap-6">
-            <span>صُنع بكل إتقان للمجتمع العربي</span>
+            <a href="https://wathiq.site" target="_blank" rel="noreferrer" className="hover:text-[#D9EF83] transition-colors">صُنع بواسطة Wathiq</a>
           </div>
         </div>
       </div>

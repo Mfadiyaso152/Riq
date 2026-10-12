@@ -75,7 +75,7 @@ export const QRCodeModal: React.FC<QRCodeModalProps> = ({ isOpen, onClose, pageI
               fgColor="#173F35"
             />
           </div>
-          <span className="text-xs text-[#747B71] mt-3">امسح الكود لفتح الصفحة مباشرة</span>
+          <a href="https://riq.wathiq.site" target="_blank" rel="noreferrer" className="text-xs text-[#747B71] mt-3 hover:underline">صنع بواسطة riq.wathiq.site</a>
         </div>
 
         {/* URL Box */}
